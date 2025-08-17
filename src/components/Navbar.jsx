@@ -17,7 +17,7 @@ const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
 
     return (
-        <div className="navbar bg-base-100 shadow-sm w-full top-0 z-40">
+        <div className="navbar bg-base-100 shadow-sm fixed w-full top-0 z-40">
             <div className="navbar-start">
 
                 <div className="dropdown lg:hidden">
