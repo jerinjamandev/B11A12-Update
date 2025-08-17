@@ -32,7 +32,14 @@ export const router = createBrowserRouter([
             path:'/',
             element:<Home></Home>
         },
-     
+        {
+            path:'/all-post',
+            element:<AllPosts></AllPosts>
+        },
+        {
+            path:'/announcement',
+            element:<Private><AnnouncementPage></AnnouncementPage></Private>
+        },
         {
             path:'/post/:id',
             element:<PostDetails></PostDetails>
